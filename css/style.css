@@ -248,6 +248,7 @@ nav ul li a:hover{
     width: 300px;
     background-color: var(--bgcolor2);
     border-radius: 20px;
+    position: relative;
     padding: 1.3rem 2rem;
     text-align: center;
     cursor: pointer;
