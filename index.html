@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Mossaab Saouti – Cybersecurity Engineering Student & Backend Web Developer. Passionate about low-level systems, security, and building modern web applications." />
+  <meta name="keywords"
+    content="Mossaab Saouti, cybersecurity, backend developer, portfolio, Laravel, Node.js, Python, web development, freelance" />
+  <meta name="author" content="Mossaab Saouti" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Mossaab Saouti | Cybersecurity & Backend Developer" />
+  <meta property="og:description"
+    content="Portfolio of Mossaab Saouti – Cybersecurity Engineering Student & Backend Web Developer." />
+  <meta property="og:type" content="website" />
+
+  <title>Mossaab Saouti | Cybersecurity & Backend Developer</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- ════════════════════════════════════════
+       NAVIGATION
+  ════════════════════════════════════════ -->
+  <nav class="navbar" id="navbar" aria-label="Main navigation">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-logo" aria-label="Go to top">&lt;<span>MS</span>/&gt;</a>
+
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false"
+        aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+
+  <!-- ════════════════════════════════════════
+       HERO SECTION
+  ════════════════════════════════════════ -->
+  <section id="hero" aria-label="Hero section">
+    <canvas id="matrix-bg" aria-hidden="true"></canvas>
+    <div class="hero-overlay" aria-hidden="true"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge" aria-label="Status badge">
+          <span class="dot" aria-hidden="true"></span>
+          Available for Freelance
+        </div>
+
+        <h1 class="hero-name">Mossaab Saouti</h1>
+
+        <div class="hero-typed-wrapper" aria-live="polite">
+          <span class="typed-text"></span><span class="typed-cursor" aria-hidden="true"></span>
+        </div>
+
+        <p class="hero-description">
+          Passionate about cybersecurity and building modern web applications.
+          Turning complex problems into elegant, secure solutions.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary" id="cta-projects">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+              aria-hidden="true">
+              <path d="M3 7l9-4 9 4v10l-9 4-9-4V7z" />
+            </svg>
+            View Projects
+          </a>
+          <a href="#contact" class="btn btn-outline" id="cta-contact">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+              aria-hidden="true">
+              <path d="M4 4h16v16H4z" />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+            Contact Me
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-indicator" aria-hidden="true">
+      <div class="scroll-mouse"></div>
+      <span>SCROLL</span>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+       ABOUT SECTION
+  ════════════════════════════════════════ -->
+  <section id="about" class="section-padding" aria-labelledby="about-title">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">// who_am_i</span>
+        <h2 class="section-title" id="about-title">About <span>Me</span></h2>
+        <div class="section-line" aria-hidden="true"></div>
+      </div>
+
+      <div class="about-grid">
+        <!-- Text -->
+        <div class="about-text reveal">
+          <h3>Engineering Student &amp; <span>Developer</span></h3>
+
+          <p>
+            I'm a Cybersecurity Engineering student with a deep passion for understanding how
+            systems work at the lowest levels — from memory management to network protocols.
+          </p>
+          <p>
+            Beyond security, I build backend applications and APIs using Laravel, Node.js, and PHP.
+            I love the intersection of <strong style="color:var(--neon-green)">security engineering</strong>
+            and clean software architecture.
+          </p>
+          <p>
+            My goal is to grow as a freelance developer while continuously sharpening my skills in
+            both offensive and defensive security. I believe in learning by building — every project
+            teaches me something new.
+          </p>
+
+          <div class="about-stats" role="list" aria-label="Quick stats">
+            <div class="stat-card" role="listitem">
+              <span class="stat-number">10+</span>
+              <span class="stat-label">Projects Completed</span>
+            </div>
+            <div class="stat-card" role="listitem">
+              <span class="stat-number">4+</span>
+              <span class="stat-label">Years Coding</span>
+            </div>
+            <div class="stat-card" role="listitem">
+              <span class="stat-number">∞</span>
+              <span class="stat-label">Things to Learn</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Profile Photo -->
+        <div class="about-photo-wrapper reveal reveal-delay-2">
+          <div class="profile-photo-frame">
+            <img src="images/mossaab.jpg" alt="Mossaab Saouti – Cybersecurity Engineering Student" class="profile-photo"
+              loading="lazy" />
+            <div class="profile-glow" aria-hidden="true"></div>
+          </div>
+          <div class="profile-badge">
+            <span class="profile-badge-name">Mossaab Saouti</span>
+            <span class="profile-badge-role">Cybersecurity Eng. · Backend Developer</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+       SKILLS SECTION
+  ════════════════════════════════════════ -->
+  <section id="skills" class="section-padding" aria-labelledby="skills-title">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">// skill_set</span>
+        <h2 class="section-title" id="skills-title">Technical <span>Skills</span></h2>
+        <div class="section-line" aria-hidden="true"></div>
+      </div>
+
+      <div class="skills-grid">
+
+        <!-- Backend -->
+        <div class="skill-category reveal">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon" aria-hidden="true">⚙️</div>
+            <h3>Backend Development</h3>
+          </div>
+          <div class="skill-item">
+            <div class="skill-meta"><span class="skill-name">Laravel / PHP</span><span class="skill-pct">85%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="85" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-meta"><span class="skill-name">Node.js</span><span class="skill-pct">85%</span></div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="85" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-meta"><span class="skill-name">Prisma ORM</span><span class="skill-pct">80%</span></div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="80" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-meta"><span class="skill-name">REST APIs</span><span class="skill-pct">80%</span></div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="80" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Languages (Proficient) -->
+        <div class="skill-category reveal reveal-delay-1">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon" aria-hidden="true">💻</div>
+            <h3>Languages – Proficient</h3>
+          </div>
+          <div class="skill-item">
+            <div class="skill-meta"><span class="skill-name">Python</span><span class="skill-pct">90%</span></div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="90" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-meta"><span class="skill-name">C</span><span class="skill-pct">80%</span></div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="80" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-meta"><span class="skill-name">JavaScript</span><span class="skill-pct">85%</span></div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="85" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-meta"><span class="skill-name">PHP</span><span class="skill-pct">85%</span></div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="85" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+          <!-- Basics as tags -->
+          <p style="font-size:0.75rem;color:var(--text-muted);margin:1rem 0 0.5rem;">Learning / Basics</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Rust</span>
+            <span class="skill-tag">Assembly</span>
+            <span class="skill-tag">Java</span>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-category reveal reveal-delay-2">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon" aria-hidden="true">🛠️</div>
+            <h3>Dev Tools</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Git &amp; GitHub</span>
+            <span class="skill-tag">phpMyAdmin</span>
+            <span class="skill-tag">Packet Tracer</span>
+            <span class="skill-tag">Kali Linux</span>
+            <span class="skill-tag">Windows</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">Figma</span>
+          </div>
+        </div>
+
+        <!-- Cybersecurity Tools -->
+        <div class="skill-category reveal reveal-delay-3">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon" aria-hidden="true">🔐</div>
+            <h3>Cybersecurity Tools</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Wireshark</span>
+            <span class="skill-tag">Nmap</span>
+            <span class="skill-tag">Burp Suite</span>
+            <span class="skill-tag">Metasploit</span>
+            <span class="skill-tag">Ghidra</span>
+            <span class="skill-tag">John the Ripper</span>
+            <span class="skill-tag">Aircrack-ng</span>
+            <span class="skill-tag">SQLMap</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+       PROJECTS SECTION
+  ════════════════════════════════════════ -->
+  <section id="projects" class="section-padding" aria-labelledby="projects-title">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">// my_work</span>
+        <h2 class="section-title" id="projects-title">Featured <span>Projects</span></h2>
+        <div class="section-line" aria-hidden="true"></div>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: E-Blog -->
+        <article class="project-card reveal" aria-label="E-Blog project">
+          <img src="images/e-blog.png" alt="E-Blog Logo" class="project-img" loading="lazy" />
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Laravel</span>
+              <span class="project-tag blue">MySQL</span>
+              <span class="project-tag blue">PHP</span>
+            </div>
+            <h3>E-Blog</h3>
+            <p>A full-featured blogging platform built with Laravel. Includes authentication, post management,
+              categories, comments, and a clean admin dashboard.</p>
+            <div class="project-links">
+              <a href="https://github.com/Mossaab49/E-Blog.git" class="project-link" target="_blank"
+                rel="noopener noreferrer">
+                <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.63-5.37-12-12-12z" />
+                </svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2: CLI Games -->
+        <article class="project-card reveal reveal-delay-1" aria-label="CLI Games project">
+          <div class="project-img-placeholder" style="background: linear-gradient(135deg,#0a0e1a,#1a1a2e,#16213e);">
+            🐍
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag blue">CLI</span>
+            </div>
+            <h3>CLI Games – Python</h3>
+            <p>A collection of terminal-based games built with Python — including Snake, Tic-Tac-Toe, and a
+              number-guessing game. Focused on clean logic and user experience in the terminal.</p>
+            <div class="project-links">
+              <a href="https://github.com/Mossaab49" class="project-link" target="_blank" rel="noopener noreferrer">
+                <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.63-5.37-12-12-12z" />
+                </svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3: GUI Games -->
+        <article class="project-card reveal reveal-delay-2" aria-label="GUI Games project">
+          <div class="project-img-placeholder" style="background: linear-gradient(135deg,#1a0533,#2d1b69,#11002e);">
+            🎮
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag purple">Canvas API</span>
+              <span class="project-tag blue">HTML5</span>
+            </div>
+            <h3>GUI Games – JavaScript</h3>
+            <p>Browser-based games using the HTML5 Canvas API and vanilla JavaScript. Includes animated gameplay,
+              collision detection, scoring, and responsive controls.</p>
+            <div class="project-links">
+              <a href="https://github.com/Mossaab49" class="project-link" target="_blank" rel="noopener noreferrer">
+                <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.63-5.37-12-12-12z" />
+                </svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4: Dashboards & Landing Pages -->
+        <article class="project-card reveal" aria-label="Dashboards and Landing Pages project">
+          <div class="project-img-placeholder" style="background: linear-gradient(135deg,#003049,#023e8a,#0077b6);">
+            📊
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag blue">HTML/CSS</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+            <h3>Dashboards &amp; Landing Pages</h3>
+            <p>Custom admin dashboards and responsive landing pages with modern UI. Focuses on clean design, reusable
+              components, and a great user experience.</p>
+            <div class="project-links">
+              <a href="https://github.com/Mossaab49" class="project-link" target="_blank" rel="noopener noreferrer">
+                <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.63-5.37-12-12-12z" />
+                </svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 5: Unity / Scratch Games -->
+        <article class="project-card reveal reveal-delay-1" aria-label="Game Development project">
+          <div class="project-img-placeholder" style="background: linear-gradient(135deg,#1a1a1a,#2d5016,#3a7d44);">
+            🕹️
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag purple">Unity 2D</span>
+              <span class="project-tag blue">Scratch</span>
+            </div>
+            <h3>Game Development</h3>
+            <p>2D platformer and arcade games built with Unity and Scratch. Developed as early creative projects,
+              covering game mechanics, physics, and animation fundamentals.</p>
+            <!-- <div class="project-links">
+              <a href="https://github.com/Mossaab49" class="project-link" target="_blank" rel="noopener noreferrer">
+                <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.63-5.37-12-12-12z" />
+                </svg>
+                GitHub
+              </a>
+            </div> -->
+          </div>
+        </article>
+
+        <!-- Project 6: Code Enhancement -->
+        <article class="project-card reveal reveal-delay-2" aria-label="Code Enhancement projects">
+          <div class="project-img-placeholder" style="background: linear-gradient(135deg,#1a0000,#3d0000,#6b0000);">
+            🔧
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag blue">JavaScript</span>
+              <span class="project-tag">PHP</span>
+            </div>
+            <h3>Code Improvement &amp; Fixes</h3>
+            <p>A series of code refactoring, optimization, and bug-fixing projects. Improving legacy codebases for
+              readability, performance, and security best practices.</p>
+            <!-- <div class="project-links">
+              <a href="https://github.com/Mossaab49" class="project-link" target="_blank" rel="noopener noreferrer">
+                <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.63-5.37-12-12-12z" />
+                </svg>
+                GitHub
+              </a>
+            </div> -->
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+       SERVICES SECTION
+  ════════════════════════════════════════ -->
+  <section id="services" class="section-padding" aria-labelledby="services-title">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">// what_i_do</span>
+        <h2 class="section-title" id="services-title">My <span>Services</span></h2>
+        <div class="section-line" aria-hidden="true"></div>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="service-card reveal">
+          <div class="service-icon" aria-hidden="true">🌐</div>
+          <h3>Frontend Design</h3>
+          <p>Responsive, pixel-perfect websites with modern UI — built with HTML, CSS, and JavaScript for any device.
+          </p>
+        </div>
+
+        <div class="service-card reveal reveal-delay-1">
+          <div class="service-icon" aria-hidden="true">⚙️</div>
+          <h3>Backend Development</h3>
+          <p>Robust server-side applications and APIs using PHP, Laravel, and Node.js with proper database integration.
+          </p>
+        </div>
+
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-icon" aria-hidden="true">🐛</div>
+          <h3>Bug Fixing &amp; Optimization</h3>
+          <p>Diagnosing and resolving bugs, improving code quality, performance, and applying security hardening.</p>
+        </div>
+
+        <div class="service-card reveal reveal-delay-3">
+          <div class="service-icon" aria-hidden="true">📱</div>
+          <h3>Web App Development</h3>
+          <p>Full-stack simple web applications — from idea to deployment, clean code and maintainable structure.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+       EDUCATION / EXPERIENCE SECTION
+  ════════════════════════════════════════ -->
+  <section id="education" class="section-padding" aria-labelledby="education-title">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">// my_journey</span>
+        <h2 class="section-title" id="education-title">Education &amp; <span>Experience</span></h2>
+        <div class="section-line" aria-hidden="true"></div>
+      </div>
+
+      <div class="edu-timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <span class="timeline-period">2024 – Present</span>
+            <h3>Cybersecurity Engineering</h3>
+            <p class="timeline-org">🎓 ENSA Tanger - Morocco</p>
+            <p>
+              Studying computer and network security, cryptography, operating systems, low-level programming,
+              and network architecture. Gaining hands-on lab experience with real attack/defense scenarios.
+            </p>
+          </div>
+        </div>
+
+
+
+        <div class="timeline-item reveal reveal-delay-2">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <span class="timeline-period">2024 – Present</span>
+            <h3>Cybersecurity Practitioner</h3>
+            <p class="timeline-org">🔐 CTFs &amp; Home Lab</p>
+            <p>
+              Practicing offensive and defensive security through Capture The Flag challenges,
+              home lab setups, and hands-on use of tools like Burp Suite, Nmap, Wireshark, and Metasploit.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal reveal-delay-1">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <span class="timeline-period">2022 – Present</span>
+            <h3>Self-Taught Backend Developer</h3>
+            <p class="timeline-org">💻 Independent Learning</p>
+            <p>
+              Self-taught web development through building real projects — mastering Laravel, Node.js,
+              PHP, databases, and REST API design through practice and continuous iteration.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal reveal-delay-3">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <span class="timeline-period">2021 - 2022</span>
+            <h3>Programming Foundations</h3>
+            <p class="timeline-org">⌨️ First Steps into Code</p>
+            <p>
+              Started programming with Python, then C. Built first CLI tools and small games,
+              discovering a passion for how computers work at a fundamental level.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+       CONTACT SECTION
+  ════════════════════════════════════════ -->
+  <section id="contact" class="section-padding" style="background: var(--bg-secondary);"
+    aria-labelledby="contact-title">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">// get_in_touch</span>
+        <h2 class="section-title" id="contact-title">Let's <span>Connect</span></h2>
+        <div class="section-line" aria-hidden="true"></div>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Left: info -->
+        <div class="contact-info reveal">
+          <h3>Have a project in <span>mind?</span></h3>
+          <p>
+            I'm open to freelance work, collaborations, and exciting opportunities.
+            Whether it's a web app, a backend system, or a security audit — let's talk.
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:saouti.mossaab@etu.uae.ac.ma" class="contact-link-item" aria-label="Send email">
+              <span class="link-icon" aria-hidden="true">✉️</span>
+              <div>
+                <p class="link-label">Email</p>
+                <p class="link-value">saouti.mossaab@etu.uae.ac.ma</p>
+              </div>
+            </a>
+
+            <a href="https://github.com/Mossaab49" class="contact-link-item" target="_blank" rel="noopener noreferrer"
+              aria-label="GitHub profile">
+              <span class="link-icon" aria-hidden="true">
+                <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.63-5.37-12-12-12z" />
+                </svg>
+              </span>
+              <div>
+                <p class="link-label">GitHub</p>
+                <p class="link-value">github.com/Mossaab49</p>
+              </div>
+            </a>
+
+            <a href="https://www.linkedin.com/in/mossaab-saouti-76828b234/" class="contact-link-item" target="_blank"
+              rel="noopener noreferrer" aria-label="LinkedIn profile">
+              <span class="link-icon" aria-hidden="true">💼</span>
+              <div>
+                <p class="link-label">LinkedIn</p>
+                <p class="link-value">mossaab-saouti</p>
+              </div>
+            </a>
+
+            <!-- WhatsApp Option -->
+            <a href="https://wa.me/212664187800" class="contact-link-item" target="_blank" rel="noopener noreferrer"
+              aria-label="WhatsApp contact">
+              <span class="link-icon" aria-hidden="true">💬</span>
+              <div>
+                <p class="link-label">WhatsApp</p>
+                <p class="link-value">+212 664187800</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: form -->
+        <div class="contact-form-wrapper reveal reveal-delay-2">
+          <!-- Replace YOUR_ID with your Formspree Endpoint ID -->
+          <form action="https://formspree.io/f/xkopwrqr" method="POST" id="contact-form" novalidate
+            aria-label="Contact form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" autocomplete="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" autocomplete="email"
+                required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project idea / Collaboration / …" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell me about your project or just say hi!"
+                required></textarea>
+            </div>
+            <button type="submit" class="btn-submit" id="submit-btn">Send Message ✉️</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════ -->
+  <footer role="contentinfo">
+    <div class="container">
+      <p class="footer-logo mono">&lt;MS/&gt;</p>
+      <p class="footer-copy">
+        Designed &amp; built by <a href="#hero">Mossaab Saouti</a> &copy; 2026 · All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+
+  <!-- ─── SCRIPTS ──────────────────────────────────────────────── -->
+  <script src="js/matrix.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
