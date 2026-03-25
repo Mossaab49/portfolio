@@ -210,4 +210,25 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    /* ============================
+       10. THEME TOGGLE (LIGHT/DARK)
+    ============================== */
+    const themeToggle = document.getElementById('theme-toggle');
+    const storageKey = 'portfolio-theme';
+
+    // Initial theme check
+    const savedTheme = localStorage.getItem(storageKey) || 'dark';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+
+    themeToggle?.addEventListener('click', () => {
+        const currentTheme = document.documentElement.getAttribute('data-theme');
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+
+        document.documentElement.setAttribute('data-theme', newTheme);
+        localStorage.setItem(storageKey, newTheme);
+
+        // Optional: Dispatch event for other components (like matrix) if needed
+        window.dispatchEvent(new CustomEvent('themeChanged', { detail: { theme: newTheme } }));
+    });
+
 });

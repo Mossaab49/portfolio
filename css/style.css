@@ -30,6 +30,25 @@
   --glow-blue: 0 0 20px #00b4d840, 0 0 40px #00b4d820;
 }
 
+/* ─── LIGHT THEME OVERRIDES ─────────────────────────────────── */
+[data-theme="light"] {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f9fafb;
+  --bg-card: #ffffff;
+  --border: #e5e7eb;
+  --border-glow: rgba(16, 185, 129, 0.1);
+
+  --neon-green: #10b981;
+  --neon-blue: #3b82f6;
+  --neon-purple: #8b5cf6;
+  --text-primary: #111827;
+  --text-muted: #4b5563;
+  --text-dim: #6b7280;
+
+  --glow-green: 0 0 20px rgba(16, 185, 129, 0.1);
+  --glow-blue: 0 0 20px rgba(59, 130, 246, 0.1);
+}
+
 /* ─── RESET ──────────────────────────────────────────────────── */
 *,
 *::before,
@@ -230,6 +249,10 @@ button {
   padding: 0.75rem 0;
 }
 
+[data-theme="light"] .navbar.scrolled {
+  background: rgba(248, 250, 252, 0.92);
+}
+
 .nav-inner {
   display: flex;
   align-items: center;
@@ -314,6 +337,74 @@ button {
   transform: translateY(-7px) rotate(-45deg);
 }
 
+/* ─── THEME TOGGLE ───────────────────────────────────────────── */
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  margin-left: 1rem;
+  transition: all var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+
+.theme-toggle:hover {
+  border-color: var(--neon-green);
+  box-shadow: var(--glow-green);
+  transform: translateY(-2px);
+}
+
+.theme-toggle svg {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[data-theme="light"] .sun-icon {
+  display: none;
+}
+
+[data-theme="dark"] .moon-icon {
+  display: none;
+}
+
+/* Default state (dark) */
+.theme-toggle .moon-icon {
+  display: none;
+}
+
+[data-theme="light"] .theme-toggle .moon-icon {
+  display: block;
+}
+
+[data-theme="light"] .theme-toggle .sun-icon {
+  display: none;
+}
+
+/* Let's simplify and use one icon that changes or two that toggle */
+.theme-toggle .sun-icon {
+  display: block;
+}
+
+.theme-toggle .moon-icon {
+  display: none;
+}
+
+[data-theme="light"] .theme-toggle .sun-icon {
+  display: none;
+}
+
+[data-theme="light"] .theme-toggle .moon-icon {
+  display: block;
+}
+
+
 /* ─── HERO SECTION ───────────────────────────────────────────── */
 #hero {
   position: relative;
@@ -328,6 +419,10 @@ button {
   inset: 0;
   opacity: 0.18;
   z-index: 0;
+}
+
+[data-theme="light"] #matrix-bg {
+  opacity: 0.12;
 }
 
 .hero-overlay {
@@ -525,7 +620,7 @@ button {
   align-items: center;
   gap: 0.5rem;
   padding: 0.85rem 1.25rem;
-  background: #0d1726;
+  background: var(--bg-secondary);
   border-bottom: 1px solid var(--border);
 }
 

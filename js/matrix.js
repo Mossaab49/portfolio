@@ -25,16 +25,18 @@
   }
 
   function draw() {
-    // Translucent black overlay for trail effect
-    ctx.fillStyle = 'rgba(10, 14, 26, 0.05)';
+    const isLight = document.documentElement.getAttribute('data-theme') === 'light';
+
+    // Translucent overlay for trail effect
+    ctx.fillStyle = isLight ? 'rgba(248, 250, 252, 0.05)' : 'rgba(10, 14, 26, 0.05)';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-    ctx.fillStyle = '#00ff88';
+    const mainColor = isLight ? '#10b981' : '#00ff88';
     ctx.font = `${fontSize}px 'JetBrains Mono', monospace`;
 
     for (let i = 0; i < drops.length; i++) {
       const text = chars[Math.floor(Math.random() * chars.length)];
-      ctx.fillStyle = Math.random() > 0.98 ? '#ffffff' : '#00ff88';
+      ctx.fillStyle = Math.random() > 0.98 ? (isLight ? '#000000' : '#ffffff') : mainColor;
       ctx.globalAlpha = Math.random() * 0.5 + 0.2;
       ctx.fillText(text, i * fontSize, drops[i] * fontSize);
 
