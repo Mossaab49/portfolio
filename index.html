@@ -1,52 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-
+ 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
-    content="Mossaab Saouti – Cybersecurity Engineering Student & Backend Web Developer. Passionate about low-level systems, security, and building modern web applications." />
-  <meta name="keywords"
-    content="Mossaab Saouti, cybersecurity, backend developer, portfolio, Laravel, Node.js, Python, web development, freelance" />
+    content="Mossaab Saouti – Cybersecurity & Cyber Intelligence engineering student. SOC/SOAR automation, DevSecOps and web security. Looking for a PFE internship starting January 2027." />
   <meta name="author" content="Mossaab Saouti" />
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="Mossaab Saouti | Cybersecurity & Backend Developer" />
+  <link rel="canonical" href="https://mossaab49.github.io/portfolio/" />
+ 
+  <!-- Content Security Policy (GitHub Pages cannot set headers, so it is set here) -->
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src https://formspree.io; form-action https://formspree.io; base-uri 'self'; object-src 'none'" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+ 
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Mossaab Saouti | Cybersecurity & SOC/SOAR Automation" />
   <meta property="og:description"
-    content="Portfolio of Mossaab Saouti – Cybersecurity Engineering Student & Backend Web Developer." />
+    content="Cybersecurity engineering student. SOC/SOAR automation, DevSecOps, web security. Seeking a PFE internship from January 2027." />
   <meta property="og:type" content="website" />
-
-  <title>Mossaab Saouti | Cybersecurity & Backend Developer</title>
-
+  <meta property="og:url" content="https://mossaab49.github.io/portfolio/" />
+  <meta property="og:image" content="https://mossaab49.github.io/portfolio/images/mossaab.jpg" />
+  <meta name="twitter:card" content="summary" />
+ 
+  <title>Mossaab Saouti | Cybersecurity & SOC/SOAR Automation</title>
+ 
+  <link rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230a0e1a'/%3E%3Ctext x='32' y='42' font-family='monospace' font-size='28' font-weight='700' text-anchor='middle' fill='%2300ff88'%3EMS%3C/text%3E%3C/svg%3E" />
+ 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap"
     rel="stylesheet" />
-
+ 
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/extras.css" />
 </head>
-
+ 
 <body>
-
-  <!-- ════════════════════════════════════════
-       NAVIGATION
-  ════════════════════════════════════════ -->
+ 
+  <a href="#about" class="skip-link">Skip to content</a>
+ 
+  <!-- ════════════ NAVIGATION ════════════ -->
   <nav class="navbar" id="navbar" aria-label="Main navigation">
     <div class="container nav-inner">
       <a href="#hero" class="nav-logo" aria-label="Go to top">&lt;<span>MS</span>/&gt;</a>
-
+ 
       <ul class="nav-links" id="nav-links" role="list">
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#education">Education</a></li>
+        <li><a href="#education">Experience</a></li>
+        <li><a href="#certifications">Certifications</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><a href="assets/CV_Mossaab_Saouti_EN.pdf" class="nav-cv" target="_blank" rel="noopener noreferrer">CV</a></li>
       </ul>
-
+ 
       <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light/dark mode">
         <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
           stroke-linecap="round" stroke-linejoin="round">
@@ -65,40 +77,39 @@
           <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
         </svg>
       </button>
-
+ 
       <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false"
         aria-controls="nav-links">
         <span></span><span></span><span></span>
       </button>
     </div>
   </nav>
-
-
-  <!-- ════════════════════════════════════════
-       HERO SECTION
-  ════════════════════════════════════════ -->
+ 
+ 
+  <!-- ════════════ HERO ════════════ -->
   <section id="hero" aria-label="Hero section">
     <canvas id="matrix-bg" aria-hidden="true"></canvas>
     <div class="hero-overlay" aria-hidden="true"></div>
-
+ 
     <div class="container">
       <div class="hero-content">
         <div class="hero-badge" aria-label="Status badge">
           <span class="dot" aria-hidden="true"></span>
-          Available for Freelance
+          Seeking PFE internship · January 2027
         </div>
-
+ 
         <h1 class="hero-name">Mossaab Saouti</h1>
-
-        <div class="hero-typed-wrapper" aria-live="polite">
-          <span class="typed-text"></span><span class="typed-cursor" aria-hidden="true"></span>
+ 
+        <div class="hero-typed-wrapper" aria-live="off">
+          <span class="typed-text">Cybersecurity Engineering Student</span><span class="typed-cursor" aria-hidden="true"></span>
         </div>
-
+ 
         <p class="hero-description">
-          Passionate about cybersecurity and building modern web applications.
-          Turning complex problems into elegant, secure solutions.
+          Cybersecurity &amp; Cyber Intelligence engineering student at ENSA Tangier.
+          I automate SOC triage with Wazuh, Shuffle, TheHive 5, Cortex and MISP,
+          and build secure, tested pipelines with DevSecOps practices.
         </p>
-
+ 
         <div class="hero-cta">
           <a href="#projects" class="btn btn-primary" id="cta-projects">
             <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
@@ -107,28 +118,32 @@
             </svg>
             View Projects
           </a>
-          <a href="#contact" class="btn btn-outline" id="cta-contact">
+          <a href="assets/CV_Mossaab_Saouti_EN.pdf" class="btn btn-outline" id="cta-cv" target="_blank"
+            rel="noopener noreferrer" download>
             <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
               aria-hidden="true">
-              <path d="M4 4h16v16H4z" />
-              <polyline points="22,6 12,13 2,6" />
+              <path d="M12 3v12" />
+              <polyline points="7,10 12,15 17,10" />
+              <path d="M4 20h16" />
             </svg>
-            Contact Me
+            Download CV
           </a>
+          <a href="#contact" class="btn btn-ghost" id="cta-contact">Contact Me</a>
         </div>
+        <p class="hero-cv-alt">CV also available in
+          <a href="assets/CV_Mossaab_Saouti_FR.pdf" target="_blank" rel="noopener noreferrer" download>French</a>.
+        </p>
       </div>
     </div>
-
+ 
     <div class="hero-scroll-indicator" aria-hidden="true">
       <div class="scroll-mouse"></div>
       <span>SCROLL</span>
     </div>
   </section>
-
-
-  <!-- ════════════════════════════════════════
-       ABOUT SECTION
-  ════════════════════════════════════════ -->
+ 
+ 
+  <!-- ════════════ ABOUT ════════════ -->
   <section id="about" class="section-padding" aria-labelledby="about-title">
     <div class="container">
       <div class="section-header reveal">
@@ -136,44 +151,43 @@
         <h2 class="section-title" id="about-title">About <span>Me</span></h2>
         <div class="section-line" aria-hidden="true"></div>
       </div>
-
+ 
       <div class="about-grid">
-        <!-- Text -->
         <div class="about-text reveal">
-          <h3>Engineering Student &amp; <span>Developer</span></h3>
-
+          <h3>Security Engineering Student &amp; <span>Automation Builder</span></h3>
+ 
           <p>
-            I'm a Cybersecurity Engineering student with a deep passion for understanding how
-            systems work at the lowest levels — from memory management to network protocols.
+            I'm in my engineering cycle in Cybersecurity and Cyber Intelligence at ENSA Tangier
+            (graduating in 2027, program taught entirely in English). I like understanding how systems work
+            at the lowest levels, from network protocols to memory, and then automating the boring parts of defending them.
           </p>
           <p>
-            Beyond security, I build backend applications and APIs using Laravel, Node.js, and PHP.
-            I love the intersection of <strong style="color:var(--neon-green)">security engineering</strong>
-            and clean software architecture.
+            During my PFA internship at Intelcia Tech, I built a SOC lab where a port scan becomes a
+            prioritized TheHive case in <strong class="hl">50 seconds</strong>, with no manual steps. I also practice
+            <strong class="hl">DevSecOps and web security</strong>: CI pipelines with security checks,
+            exploiting and fixing real web vulnerabilities, and containerized deployments.
           </p>
           <p>
-            My goal is to grow as a freelance developer while continuously sharpening my skills in
-            both offensive and defensive security. I believe in learning by building — every project
-            teaches me something new.
+            I'm now looking for my <strong class="hl">end-of-studies (PFE) internship starting January 2027</strong>
+            in SOC / SOAR / SecOps automation or DevSecOps.
           </p>
-
+ 
           <div class="about-stats" role="list" aria-label="Quick stats">
             <div class="stat-card" role="listitem">
-              <span class="stat-number">10+</span>
-              <span class="stat-label">Projects Completed</span>
+              <span class="stat-number">50s</span>
+              <span class="stat-label">Scan to case notification (lab)</span>
             </div>
             <div class="stat-card" role="listitem">
-              <span class="stat-number">4+</span>
-              <span class="stat-label">Years Coding</span>
+              <span class="stat-number">3</span>
+              <span class="stat-label">CCNA courses completed</span>
             </div>
             <div class="stat-card" role="listitem">
-              <span class="stat-number">∞</span>
-              <span class="stat-label">Things to Learn</span>
+              <span class="stat-number">4</span>
+              <span class="stat-label">Web vulnerabilities exploited &amp; fixed</span>
             </div>
           </div>
         </div>
-
-        <!-- Profile Photo -->
+ 
         <div class="about-photo-wrapper reveal reveal-delay-2">
           <div class="profile-photo-frame">
             <img src="images/mossaab.jpg" alt="Mossaab Saouti – Cybersecurity Engineering Student" class="profile-photo"
@@ -182,17 +196,15 @@
           </div>
           <div class="profile-badge">
             <span class="profile-badge-name">Mossaab Saouti</span>
-            <span class="profile-badge-role">Cybersecurity Eng. · Backend Developer</span>
+            <span class="profile-badge-role">Cybersecurity Eng. · SOC / SOAR · DevSecOps</span>
           </div>
         </div>
       </div>
     </div>
   </section>
-
-
-  <!-- ════════════════════════════════════════
-       SKILLS SECTION
-  ════════════════════════════════════════ -->
+ 
+ 
+  <!-- ════════════ SKILLS ════════════ -->
   <section id="skills" class="section-padding" aria-labelledby="skills-title">
     <div class="container">
       <div class="section-header reveal">
@@ -200,132 +212,125 @@
         <h2 class="section-title" id="skills-title">Technical <span>Skills</span></h2>
         <div class="section-line" aria-hidden="true"></div>
       </div>
-
+ 
       <div class="skills-grid">
-
-        <!-- Backend -->
+ 
         <div class="skill-category reveal">
           <div class="skill-cat-header">
-            <div class="skill-cat-icon" aria-hidden="true">⚙️</div>
-            <h3>Backend Development</h3>
+            <div class="skill-cat-icon" aria-hidden="true">🛡️</div>
+            <h3>SOC, SOAR &amp; Detection</h3>
           </div>
-          <div class="skill-item">
-            <div class="skill-meta"><span class="skill-name">Laravel / PHP</span><span class="skill-pct">85%</span>
-            </div>
-            <div class="skill-bar-track">
-              <div class="skill-bar-fill" data-width="85" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-                aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-meta"><span class="skill-name">Node.js</span><span class="skill-pct">85%</span></div>
-            <div class="skill-bar-track">
-              <div class="skill-bar-fill" data-width="85" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-                aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-meta"><span class="skill-name">Prisma ORM</span><span class="skill-pct">80%</span></div>
-            <div class="skill-bar-track">
-              <div class="skill-bar-fill" data-width="80" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-meta"><span class="skill-name">REST APIs</span><span class="skill-pct">80%</span></div>
-            <div class="skill-bar-track">
-              <div class="skill-bar-fill" data-width="80" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                aria-valuemax="100"></div>
-            </div>
+          <div class="skill-tags">
+            <span class="skill-tag strong">Wazuh</span>
+            <span class="skill-tag strong">Shuffle</span>
+            <span class="skill-tag strong">TheHive 5</span>
+            <span class="skill-tag strong">Cortex</span>
+            <span class="skill-tag strong">MISP</span>
+            <span class="skill-tag">Detection rules</span>
+            <span class="skill-tag">Workflow design</span>
+            <span class="skill-tag">Webhooks</span>
+            <span class="skill-tag">Deduplication</span>
+            <span class="skill-tag">IOC enrichment</span>
           </div>
         </div>
-
-        <!-- Languages (Proficient) -->
+ 
+        <div class="skill-category reveal reveal-delay-1">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon" aria-hidden="true">🔁</div>
+            <h3>DevSecOps</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag strong">GitHub Actions</span>
+            <span class="skill-tag strong">Docker</span>
+            <span class="skill-tag strong">Docker Compose</span>
+            <span class="skill-tag">Bandit</span>
+            <span class="skill-tag">Safety</span>
+            <span class="skill-tag">Gitleaks</span>
+            <span class="skill-tag">OWASP ZAP</span>
+            <span class="skill-tag">WAF</span>
+          </div>
+        </div>
+ 
+        <div class="skill-category reveal reveal-delay-2">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon" aria-hidden="true">🔐</div>
+            <h3>Offensive &amp; Network Security</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Burp Suite</span>
+            <span class="skill-tag">SQLMap</span>
+            <span class="skill-tag">Nmap</span>
+            <span class="skill-tag">Wireshark</span>
+            <span class="skill-tag">Metasploit</span>
+            <span class="skill-tag">Ghidra</span>
+            <span class="skill-tag">John the Ripper</span>
+            <span class="skill-tag">Aircrack-ng</span>
+            <span class="skill-tag">Kali Linux</span>
+            <span class="skill-tag">Packet Tracer</span>
+            <span class="skill-tag">TCP/IP</span>
+          </div>
+        </div>
+ 
+        <div class="skill-category reveal">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon" aria-hidden="true">🖥️</div>
+            <h3>Infrastructure</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag strong">Linux</span>
+            <span class="skill-tag strong">Ubuntu Server</span>
+            <span class="skill-tag">Windows</span>
+            <span class="skill-tag">VMware</span>
+            <span class="skill-tag">Docker</span>
+          </div>
+        </div>
+ 
         <div class="skill-category reveal reveal-delay-1">
           <div class="skill-cat-header">
             <div class="skill-cat-icon" aria-hidden="true">💻</div>
-            <h3>Languages – Proficient</h3>
+            <h3>Languages</h3>
           </div>
-          <div class="skill-item">
-            <div class="skill-meta"><span class="skill-name">Python</span><span class="skill-pct">90%</span></div>
-            <div class="skill-bar-track">
-              <div class="skill-bar-fill" data-width="90" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                aria-valuemax="100"></div>
-            </div>
+          <p class="skill-sub">Proficient</p>
+          <div class="skill-tags">
+            <span class="skill-tag strong">Python</span>
+            <span class="skill-tag strong">JavaScript</span>
+            <span class="skill-tag strong">PHP</span>
+            <span class="skill-tag strong">C</span>
+            <span class="skill-tag strong">SQL</span>
           </div>
-          <div class="skill-item">
-            <div class="skill-meta"><span class="skill-name">C</span><span class="skill-pct">80%</span></div>
-            <div class="skill-bar-track">
-              <div class="skill-bar-fill" data-width="80" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-meta"><span class="skill-name">JavaScript</span><span class="skill-pct">85%</span></div>
-            <div class="skill-bar-track">
-              <div class="skill-bar-fill" data-width="85" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-                aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-meta"><span class="skill-name">PHP</span><span class="skill-pct">85%</span></div>
-            <div class="skill-bar-track">
-              <div class="skill-bar-fill" data-width="85" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-                aria-valuemax="100"></div>
-            </div>
-          </div>
-          <!-- Basics as tags -->
-          <p style="font-size:0.75rem;color:var(--text-muted);margin:1rem 0 0.5rem;">Learning / Basics</p>
+          <p class="skill-sub">Learning / basics</p>
           <div class="skill-tags">
             <span class="skill-tag">Rust</span>
             <span class="skill-tag">Assembly</span>
             <span class="skill-tag">Java</span>
           </div>
         </div>
-
-        <!-- Tools -->
+ 
         <div class="skill-category reveal reveal-delay-2">
           <div class="skill-cat-header">
-            <div class="skill-cat-icon" aria-hidden="true">🛠️</div>
-            <h3>Dev Tools</h3>
+            <div class="skill-cat-icon" aria-hidden="true">⚙️</div>
+            <h3>Backend &amp; Dev Tools</h3>
           </div>
           <div class="skill-tags">
+            <span class="skill-tag strong">Laravel</span>
+            <span class="skill-tag strong">Node.js / Express</span>
+            <span class="skill-tag">Prisma ORM</span>
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">REST APIs</span>
             <span class="skill-tag">Git &amp; GitHub</span>
-            <span class="skill-tag">phpMyAdmin</span>
-            <span class="skill-tag">Packet Tracer</span>
-            <span class="skill-tag">Kali Linux</span>
-            <span class="skill-tag">Windows</span>
             <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">phpMyAdmin</span>
             <span class="skill-tag">Figma</span>
           </div>
         </div>
-
-        <!-- Cybersecurity Tools -->
-        <div class="skill-category reveal reveal-delay-3">
-          <div class="skill-cat-header">
-            <div class="skill-cat-icon" aria-hidden="true">🔐</div>
-            <h3>Cybersecurity Tools</h3>
-          </div>
-          <div class="skill-tags">
-            <span class="skill-tag">Wireshark</span>
-            <span class="skill-tag">Nmap</span>
-            <span class="skill-tag">Burp Suite</span>
-            <span class="skill-tag">Metasploit</span>
-            <span class="skill-tag">Ghidra</span>
-            <span class="skill-tag">John the Ripper</span>
-            <span class="skill-tag">Aircrack-ng</span>
-            <span class="skill-tag">SQLMap</span>
-          </div>
-        </div>
-
+ 
       </div>
     </div>
   </section>
-
-
-  <!-- ════════════════════════════════════════
-       PROJECTS SECTION
-  ════════════════════════════════════════ -->
+ 
+ 
+  <!-- ════════════ PROJECTS ════════════ -->
   <section id="projects" class="section-padding" aria-labelledby="projects-title">
     <div class="container">
       <div class="section-header reveal">
@@ -333,23 +338,99 @@
         <h2 class="section-title" id="projects-title">Featured <span>Projects</span></h2>
         <div class="section-line" aria-hidden="true"></div>
       </div>
-
+ 
       <div class="projects-grid">
-
-        <!-- Project 1: E-Blog -->
+ 
+        <!-- 1. PFA – SOC automation -->
+        <article class="project-card reveal" aria-label="SOC automation PFA project">
+          <div class="project-img-placeholder grad-soc" aria-hidden="true">🛡️</div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Wazuh</span>
+              <span class="project-tag blue">Shuffle</span>
+              <span class="project-tag blue">TheHive 5</span>
+              <span class="project-tag purple">Cortex</span>
+              <span class="project-tag purple">MISP</span>
+              <span class="project-tag">Docker</span>
+            </div>
+            <h3>SOC Alert Triage Automation <span class="project-meta">· Intelcia Tech, PFA 2026</span></h3>
+            <p>Lab on 3 Ubuntu Server VMs with Docker Compose. Three Wazuh rules on UFW and Apache logs feed two
+              Shuffle workflows that extract observables, deduplicate alerts and create or update TheHive 5 cases.
+              Cortex and MISP enrichment adjusts case severity automatically. Two attack scenarios validated:
+              <strong class="hl">50 seconds</strong> from scan to case notification.</p>
+            <!-- Company project: no public repo. Add a link here only if your technical report can be shared. -->
+          </div>
+        </article>
+ 
+        <!-- 2. Web Security & DevSecOps Lab -->
+        <article class="project-card reveal reveal-delay-1" aria-label="Web security and DevSecOps lab project">
+          <div class="project-img-placeholder grad-sec" aria-hidden="true">🔬</div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Python / Flask</span>
+              <span class="project-tag blue">GitHub Actions</span>
+              <span class="project-tag purple">OWASP ZAP</span>
+              <span class="project-tag blue">Docker</span>
+            </div>
+            <h3>Web Security &amp; DevSecOps Lab <span class="project-meta">· May 2026</span></h3>
+            <p>GitHub Actions pipeline running Bandit, Safety and Gitleaks on code, dependencies and secrets.
+              Exploited four web vulnerabilities (SQL injection, XSS, command injection, path traversal),
+              analyzed the fixes, tested a WAF and documented a simulated incident from JSON logs.</p>
+            <div class="project-links">
+              <!-- TODO: replace with the exact repository URL -->
+              <a href="https://github.com/Mossaab49" class="project-link" target="_blank" rel="noopener noreferrer">
+                <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.63-5.37-12-12-12z" />
+                </svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+ 
+        <!-- 3. DevOps Task Manager -->
+        <article class="project-card reveal reveal-delay-2" aria-label="DevOps Task Manager project">
+          <div class="project-img-placeholder grad-devops" aria-hidden="true">🚢</div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Node.js / Express</span>
+              <span class="project-tag blue">MongoDB</span>
+              <span class="project-tag blue">GitHub Actions</span>
+              <span class="project-tag purple">Docker Compose</span>
+            </div>
+            <h3>DevOps Task Manager <span class="project-meta">· Academic project</span></h3>
+            <p>CI/CD for a Node.js/Express API with MongoDB: GitHub Actions installs dependencies, runs the tests
+              and builds the Docker image. Deployed locally with Docker Compose, with environment variables
+              and a persistent database volume. API tested and logs reviewed.</p>
+            <div class="project-links">
+              <!-- TODO: replace with the exact repository URL -->
+              <a href="https://github.com/Mossaab49" class="project-link" target="_blank" rel="noopener noreferrer">
+                <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.63-5.37-12-12-12z" />
+                </svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+ 
+        <!-- 4. E-Blog -->
         <article class="project-card reveal" aria-label="E-Blog project">
-          <img src="images/e-blog.png" alt="E-Blog Logo" class="project-img" loading="lazy" />
+          <img src="images/e-blog.png" alt="E-Blog logo" class="project-img" loading="lazy" />
           <div class="project-body">
             <div class="project-tags">
               <span class="project-tag">Laravel</span>
               <span class="project-tag blue">MySQL</span>
-              <span class="project-tag blue">PHP</span>
+              <span class="project-tag blue">Blade</span>
+              <span class="project-tag purple">Tailwind CSS</span>
             </div>
-            <h3>E-Blog</h3>
-            <p>A full-featured blogging platform built with Laravel. Includes authentication, post management,
-              categories, comments, and a clean admin dashboard.</p>
+            <h3>E-Blog <span class="project-meta">· Web publishing platform</span></h3>
+            <p>Blogging platform with article, image and search management. Built with security in mind:
+              authentication, validation of data and uploaded files, password hashing and CSRF protection.</p>
             <div class="project-links">
-              <a href="https://github.com/Mossaab49/E-Blog.git" class="project-link" target="_blank"
+              <a href="https://github.com/Mossaab49/E-Blog" class="project-link" target="_blank"
                 rel="noopener noreferrer">
                 <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path
@@ -360,285 +441,229 @@
             </div>
           </div>
         </article>
-
-        <!-- Project 2: CLI Games -->
-        <article class="project-card reveal reveal-delay-1" aria-label="CLI Games project">
-          <div class="project-img-placeholder" style="background: linear-gradient(135deg,#0a0e1a,#1a1a2e,#16213e);">
-            🐍
-          </div>
-          <div class="project-body">
-            <div class="project-tags">
-              <span class="project-tag">Python</span>
-              <span class="project-tag blue">CLI</span>
-            </div>
-            <h3>CLI Games – Python</h3>
-            <p>A collection of terminal-based games built with Python — including Snake, Tic-Tac-Toe, and a
-              number-guessing game. Focused on clean logic and user experience in the terminal.</p>
-            <div class="project-links">
-              <a href="https://github.com/Mossaab49" class="project-link" target="_blank" rel="noopener noreferrer">
-                <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path
-                    d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.63-5.37-12-12-12z" />
-                </svg>
-                GitHub
-              </a>
-            </div>
-          </div>
-        </article>
-
-        <!-- Project 3: GUI Games -->
-        <article class="project-card reveal reveal-delay-2" aria-label="GUI Games project">
-          <div class="project-img-placeholder" style="background: linear-gradient(135deg,#1a0533,#2d1b69,#11002e);">
-            🎮
-          </div>
-          <div class="project-body">
-            <div class="project-tags">
-              <span class="project-tag">JavaScript</span>
-              <span class="project-tag purple">Canvas API</span>
-              <span class="project-tag blue">HTML5</span>
-            </div>
-            <h3>GUI Games – JavaScript</h3>
-            <p>Browser-based games using the HTML5 Canvas API and vanilla JavaScript. Includes animated gameplay,
-              collision detection, scoring, and responsive controls.</p>
-            <div class="project-links">
-              <a href="https://github.com/Mossaab49" class="project-link" target="_blank" rel="noopener noreferrer">
-                <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path
-                    d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.63-5.37-12-12-12z" />
-                </svg>
-                GitHub
-              </a>
-            </div>
-          </div>
-        </article>
-
-        <!-- Project 4: Dashboards & Landing Pages -->
-        <article class="project-card reveal" aria-label="Dashboards and Landing Pages project">
-          <div class="project-img-placeholder" style="background: linear-gradient(135deg,#003049,#023e8a,#0077b6);">
-            📊
-          </div>
-          <div class="project-body">
-            <div class="project-tags">
-              <span class="project-tag blue">HTML/CSS</span>
-              <span class="project-tag">JavaScript</span>
-            </div>
-            <h3>Dashboards &amp; Landing Pages</h3>
-            <p>Custom admin dashboards and responsive landing pages with modern UI. Focuses on clean design, reusable
-              components, and a great user experience.</p>
-            <div class="project-links">
-              <a href="https://github.com/Mossaab49" class="project-link" target="_blank" rel="noopener noreferrer">
-                <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path
-                    d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.63-5.37-12-12-12z" />
-                </svg>
-                GitHub
-              </a>
-            </div>
-          </div>
-        </article>
-
-        <!-- Project 5: Unity / Scratch Games -->
-        <article class="project-card reveal reveal-delay-1" aria-label="Game Development project">
-          <div class="project-img-placeholder" style="background: linear-gradient(135deg,#1a1a1a,#2d5016,#3a7d44);">
-            🕹️
-          </div>
-          <div class="project-body">
-            <div class="project-tags">
-              <span class="project-tag purple">Unity 2D</span>
-              <span class="project-tag blue">Scratch</span>
-            </div>
-            <h3>Game Development</h3>
-            <p>2D platformer and arcade games built with Unity and Scratch. Developed as early creative projects,
-              covering game mechanics, physics, and animation fundamentals.</p>
-            <!-- <div class="project-links">
-              <a href="https://github.com/Mossaab49" class="project-link" target="_blank" rel="noopener noreferrer">
-                <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path
-                    d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.63-5.37-12-12-12z" />
-                </svg>
-                GitHub
-              </a>
-            </div> -->
-          </div>
-        </article>
-
-        <!-- Project 6: Code Enhancement -->
-        <article class="project-card reveal reveal-delay-2" aria-label="Code Enhancement projects">
-          <div class="project-img-placeholder" style="background: linear-gradient(135deg,#1a0000,#3d0000,#6b0000);">
-            🔧
-          </div>
-          <div class="project-body">
-            <div class="project-tags">
-              <span class="project-tag">Python</span>
-              <span class="project-tag blue">JavaScript</span>
-              <span class="project-tag">PHP</span>
-            </div>
-            <h3>Code Improvement &amp; Fixes</h3>
-            <p>A series of code refactoring, optimization, and bug-fixing projects. Improving legacy codebases for
-              readability, performance, and security best practices.</p>
-            <!-- <div class="project-links">
-              <a href="https://github.com/Mossaab49" class="project-link" target="_blank" rel="noopener noreferrer">
-                <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path
-                    d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.63-5.37-12-12-12z" />
-                </svg>
-                GitHub
-              </a>
-            </div> -->
-          </div>
-        </article>
-
+ 
       </div>
     </div>
   </section>
-
-
-  <!-- ════════════════════════════════════════
-       SERVICES SECTION
-  ════════════════════════════════════════ -->
-  <section id="services" class="section-padding" aria-labelledby="services-title">
+ 
+ 
+  <!-- ════════════ FOCUS AREAS ════════════ -->
+  <section id="focus" class="section-padding" aria-labelledby="focus-title">
     <div class="container">
       <div class="section-header reveal">
         <span class="section-tag">// what_i_do</span>
-        <h2 class="section-title" id="services-title">My <span>Services</span></h2>
+        <h2 class="section-title" id="focus-title">Focus <span>Areas</span></h2>
         <div class="section-line" aria-hidden="true"></div>
       </div>
-
+ 
       <div class="services-grid">
-
         <div class="service-card reveal">
-          <div class="service-icon" aria-hidden="true">🌐</div>
-          <h3>Frontend Design</h3>
-          <p>Responsive, pixel-perfect websites with modern UI — built with HTML, CSS, and JavaScript for any device.
-          </p>
+          <div class="service-icon" aria-hidden="true">🤖</div>
+          <h3>SOC &amp; SOAR Automation</h3>
+          <p>Workflows that extract observables, group alerts and open or update cases automatically, with deduplication and notifications.</p>
         </div>
-
         <div class="service-card reveal reveal-delay-1">
+          <div class="service-icon" aria-hidden="true">🔎</div>
+          <h3>Detection &amp; Enrichment</h3>
+          <p>Wazuh detection rules on system and web logs, plus Cortex and MISP enrichment to prioritize what matters.</p>
+        </div>
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-icon" aria-hidden="true">🔁</div>
+          <h3>DevSecOps &amp; Web Security</h3>
+          <p>CI pipelines with code, dependency and secret scanning, container deployments, and hands-on web vulnerability testing.</p>
+        </div>
+        <div class="service-card reveal reveal-delay-3">
           <div class="service-icon" aria-hidden="true">⚙️</div>
           <h3>Backend Development</h3>
-          <p>Robust server-side applications and APIs using PHP, Laravel, and Node.js with proper database integration.
-          </p>
+          <p>APIs and web apps with Laravel and Node.js, built with validation, authentication and clean structure.</p>
         </div>
-
-        <div class="service-card reveal reveal-delay-2">
-          <div class="service-icon" aria-hidden="true">🐛</div>
-          <h3>Bug Fixing &amp; Optimization</h3>
-          <p>Diagnosing and resolving bugs, improving code quality, performance, and applying security hardening.</p>
-        </div>
-
-        <div class="service-card reveal reveal-delay-3">
-          <div class="service-icon" aria-hidden="true">📱</div>
-          <h3>Web App Development</h3>
-          <p>Full-stack simple web applications — from idea to deployment, clean code and maintainable structure.</p>
-        </div>
-
       </div>
     </div>
   </section>
-
-
-  <!-- ════════════════════════════════════════
-       EDUCATION / EXPERIENCE SECTION
-  ════════════════════════════════════════ -->
+ 
+ 
+  <!-- ════════════ EXPERIENCE / EDUCATION ════════════ -->
   <section id="education" class="section-padding" aria-labelledby="education-title">
     <div class="container">
       <div class="section-header reveal">
         <span class="section-tag">// my_journey</span>
-        <h2 class="section-title" id="education-title">Education &amp; <span>Experience</span></h2>
+        <h2 class="section-title" id="education-title">Experience &amp; <span>Education</span></h2>
         <div class="section-line" aria-hidden="true"></div>
       </div>
-
+ 
       <div class="edu-timeline">
-
+ 
         <div class="timeline-item reveal">
           <div class="timeline-dot" aria-hidden="true"></div>
           <div class="timeline-card">
-            <span class="timeline-period">2024 – Present</span>
-            <h3>Cybersecurity Engineering</h3>
-            <p class="timeline-org">🎓 ENSA Tanger - Morocco</p>
+            <span class="timeline-period">Jul – Sep 2026</span>
+            <h3>PFA Internship – Cybersecurity &amp; SOC Automation</h3>
+            <p class="timeline-org">🛡️ Intelcia Tech · Casablanca, Morocco</p>
             <p>
-              Studying computer and network security, cryptography, operating systems, low-level programming,
-              and network architecture. Gaining hands-on lab experience with real attack/defense scenarios.
+              Deployed a SOC lab (Wazuh, Shuffle, TheHive 5, Cortex, MISP) on 3 Ubuntu Server VMs with Docker Compose,
+              built 2 Shuffle workflows and 3 Wazuh rules, and validated 2 attack scenarios end to end.
+              Wrote the technical report in English.
             </p>
           </div>
         </div>
-
-
-
-        <div class="timeline-item reveal reveal-delay-2">
+ 
+        <div class="timeline-item reveal">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <span class="timeline-period">Jun 2026 – Present</span>
+            <h3>President, ENSAT Gaming Club</h3>
+            <p class="timeline-org">🎮 ENSA Tangier</p>
+            <p>Leading the team and preparing events.</p>
+          </div>
+        </div>
+ 
+        <div class="timeline-item reveal">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <span class="timeline-period">Jul – Aug 2025</span>
+            <h3>IT Internship – Support &amp; Systems Administration</h3>
+            <p class="timeline-org">💼 DHL Express · Casablanca, Morocco</p>
+            <p>
+              User support and incident resolution (hardware, software, LAN/Wi-Fi). Installed and configured
+              Windows workstations, and contributed to asset tracking in the CMDB and to technical documentation.
+            </p>
+          </div>
+        </div>
+ 
+        <div class="timeline-item reveal">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <span class="timeline-period">2024 – 2027</span>
+            <h3>Engineering Degree – Cybersecurity &amp; Cyber Intelligence</h3>
+            <p class="timeline-org">🎓 ENSA Tangier · Morocco</p>
+            <p>
+              Computer and network security, cryptography, operating systems, low-level programming and
+              network architecture, with hands-on labs. The whole program is taught in English.
+            </p>
+          </div>
+        </div>
+ 
+        <div class="timeline-item reveal">
           <div class="timeline-dot" aria-hidden="true"></div>
           <div class="timeline-card">
             <span class="timeline-period">2024 – Present</span>
             <h3>Cybersecurity Practitioner</h3>
             <p class="timeline-org">🔐 CTFs &amp; Home Lab</p>
             <p>
-              Practicing offensive and defensive security through Capture The Flag challenges,
-              home lab setups, and hands-on use of tools like Burp Suite, Nmap, Wireshark, and Metasploit.
+              Offensive and defensive practice through Capture The Flag challenges and home lab setups with
+              Burp Suite, Nmap, Wireshark and Metasploit.
             </p>
           </div>
         </div>
-
-        <div class="timeline-item reveal reveal-delay-1">
+ 
+        <div class="timeline-item reveal">
           <div class="timeline-dot" aria-hidden="true"></div>
           <div class="timeline-card">
             <span class="timeline-period">2022 – Present</span>
             <h3>Self-Taught Backend Developer</h3>
             <p class="timeline-org">💻 Independent Learning</p>
             <p>
-              Self-taught web development through building real projects — mastering Laravel, Node.js,
-              PHP, databases, and REST API design through practice and continuous iteration.
+              Learned web development by building real projects: Laravel, Node.js, PHP, databases and REST API design.
             </p>
           </div>
         </div>
-
-        <div class="timeline-item reveal reveal-delay-3">
+ 
+        <div class="timeline-item reveal">
           <div class="timeline-dot" aria-hidden="true"></div>
           <div class="timeline-card">
-            <span class="timeline-period">2021 - 2022</span>
+            <span class="timeline-period">2021 – 2022</span>
             <h3>Programming Foundations</h3>
             <p class="timeline-org">⌨️ First Steps into Code</p>
             <p>
-              Started programming with Python, then C. Built first CLI tools and small games,
-              discovering a passion for how computers work at a fundamental level.
+              Started with Python, then C. Built first CLI tools and small games, and found my interest in how computers work.
             </p>
           </div>
         </div>
-
+ 
       </div>
     </div>
   </section>
-
-
-  <!-- ════════════════════════════════════════
-       CONTACT SECTION
-  ════════════════════════════════════════ -->
-  <section id="contact" class="section-padding" style="background: var(--bg-secondary);"
-    aria-labelledby="contact-title">
+ 
+ 
+  <!-- ════════════ CERTIFICATIONS ════════════ -->
+  <section id="certifications" class="section-padding" aria-labelledby="certs-title">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">// credentials</span>
+        <h2 class="section-title" id="certs-title">Certifications &amp; <span>Training</span></h2>
+        <div class="section-line" aria-hidden="true"></div>
+      </div>
+ 
+      <div class="certs-grid">
+ 
+        <article class="cert-card reveal">
+          <span class="cert-date">Oct 22, 2026</span>
+          <h3>Program Taught in English</h3>
+          <p class="cert-issuer">ENSA Tangier – Program Coordinator</p>
+          <p>Official certificate: the Cybersecurity and Cyber Intelligence engineering program is delivered entirely
+            in English (lectures, practical sessions, evaluations).</p>
+          <a href="assets/certs/ENSA_Tangier_English_Program_Certificate.pdf" class="project-link" target="_blank"
+            rel="noopener noreferrer">View certificate</a>
+        </article>
+ 
+        <article class="cert-card reveal reveal-delay-1">
+          <span class="cert-date">Jun 29, 2025</span>
+          <h3>CCNA: Enterprise Networking, Security, and Automation</h3>
+          <p class="cert-issuer">Cisco Networking Academy · ENSA Tangier</p>
+          <p>Third CCNA course: enterprise networks, network security and network automation.</p>
+          <a href="assets/certs/CCNA_Enterprise_Networking_Security_Automation.pdf" class="project-link"
+            target="_blank" rel="noopener noreferrer">View certificate</a>
+        </article>
+ 
+        <article class="cert-card reveal reveal-delay-2">
+          <span class="cert-date">Feb 25, 2025</span>
+          <h3>CCNA: Switching, Routing, and Wireless Essentials</h3>
+          <p class="cert-issuer">Cisco Networking Academy · ENSA Tangier</p>
+          <p>Second CCNA course: switching, routing and wireless fundamentals.</p>
+          <a href="assets/certs/CCNA_Switching_Routing_Wireless_Essentials.pdf" class="project-link" target="_blank"
+            rel="noopener noreferrer">View certificate</a>
+        </article>
+ 
+        <article class="cert-card reveal reveal-delay-3">
+          <span class="cert-date">Feb 9, 2025</span>
+          <h3>CCNA: Introduction to Networks</h3>
+          <p class="cert-issuer">Cisco Networking Academy · ENSA Tangier</p>
+          <p>First CCNA course: network fundamentals, addressing and protocols.</p>
+          <a href="assets/certs/CCNA_Introduction_to_Networks.pdf" class="project-link" target="_blank"
+            rel="noopener noreferrer">View certificate</a>
+        </article>
+ 
+      </div>
+    </div>
+  </section>
+ 
+ 
+  <!-- ════════════ CONTACT ════════════ -->
+  <section id="contact" class="section-padding bg-secondary" aria-labelledby="contact-title">
     <div class="container">
       <div class="section-header reveal">
         <span class="section-tag">// get_in_touch</span>
         <h2 class="section-title" id="contact-title">Let's <span>Connect</span></h2>
         <div class="section-line" aria-hidden="true"></div>
       </div>
-
+ 
       <div class="contact-grid">
-        <!-- Left: info -->
         <div class="contact-info reveal">
-          <h3>Have a project in <span>mind?</span></h3>
+          <h3>Hiring for a PFE <span>internship?</span></h3>
           <p>
-            I'm open to freelance work, collaborations, and exciting opportunities.
-            Whether it's a web app, a backend system, or a security audit — let's talk.
+            I'm available from January 2027 for an end-of-studies internship in SOC / SOAR / SecOps automation
+            or DevSecOps. I'm also open to collaborations. Write to me, I reply quickly.
           </p>
-
+ 
           <div class="contact-links">
-            <a href="mailto:saouti.mossaab@etu.uae.ac.ma" class="contact-link-item" aria-label="Send email">
+            <a href="mailto:mossaabsaouti7@gmail.com" class="contact-link-item" aria-label="Send email">
               <span class="link-icon" aria-hidden="true">✉️</span>
               <div>
                 <p class="link-label">Email</p>
-                <p class="link-value">saouti.mossaab@etu.uae.ac.ma</p>
+                <p class="link-value">mossaabsaouti7@gmail.com</p>
               </div>
             </a>
-
+ 
             <a href="https://github.com/Mossaab49" class="contact-link-item" target="_blank" rel="noopener noreferrer"
               aria-label="GitHub profile">
               <span class="link-icon" aria-hidden="true">
@@ -652,7 +677,7 @@
                 <p class="link-value">github.com/Mossaab49</p>
               </div>
             </a>
-
+ 
             <a href="https://www.linkedin.com/in/mossaab-saouti-76828b234/" class="contact-link-item" target="_blank"
               rel="noopener noreferrer" aria-label="LinkedIn profile">
               <span class="link-icon" aria-hidden="true">💼</span>
@@ -661,8 +686,7 @@
                 <p class="link-value">mossaab-saouti</p>
               </div>
             </a>
-
-            <!-- WhatsApp Option -->
+ 
             <a href="https://wa.me/212664187800" class="contact-link-item" target="_blank" rel="noopener noreferrer"
               aria-label="WhatsApp contact">
               <span class="link-icon" aria-hidden="true">💬</span>
@@ -673,12 +697,15 @@
             </a>
           </div>
         </div>
-
-        <!-- Right: form -->
+ 
         <div class="contact-form-wrapper reveal reveal-delay-2">
-          <!-- Replace YOUR_ID with your Formspree Endpoint ID -->
           <form action="https://formspree.io/f/xkopwrqr" method="POST" id="contact-form" novalidate
             aria-label="Contact form">
+            <!-- Honeypot anti-spam: real visitors never see or fill this field -->
+            <div class="hp-field" aria-hidden="true">
+              <label for="website">Leave this field empty</label>
+              <input type="text" id="website" name="_gotcha" tabindex="-1" autocomplete="off" />
+            </div>
             <div class="form-group">
               <label for="name">Your Name</label>
               <input type="text" id="name" name="name" placeholder="John Doe" autocomplete="name" required />
@@ -690,11 +717,11 @@
             </div>
             <div class="form-group">
               <label for="subject">Subject</label>
-              <input type="text" id="subject" name="subject" placeholder="Project idea / Collaboration / …" />
+              <input type="text" id="subject" name="subject" placeholder="PFE internship / Collaboration / …" />
             </div>
             <div class="form-group">
               <label for="message">Message</label>
-              <textarea id="message" name="message" placeholder="Tell me about your project or just say hi!"
+              <textarea id="message" name="message" placeholder="Tell me about the role or your project."
                 required></textarea>
             </div>
             <button type="submit" class="btn-submit" id="submit-btn">Send Message ✉️</button>
@@ -703,11 +730,9 @@
       </div>
     </div>
   </section>
-
-
-  <!-- ════════════════════════════════════════
-       FOOTER
-  ════════════════════════════════════════ -->
+ 
+ 
+  <!-- ════════════ FOOTER ════════════ -->
   <footer role="contentinfo">
     <div class="container">
       <p class="footer-logo mono">&lt;MS/&gt;</p>
@@ -716,11 +741,12 @@
       </p>
     </div>
   </footer>
-
-
-  <!-- ─── SCRIPTS ──────────────────────────────────────────────── -->
+ 
   <script src="js/matrix.js"></script>
   <script src="js/main.js"></script>
 </body>
-
+ 
 </html>
+ 
+
+
